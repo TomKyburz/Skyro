@@ -1,0 +1,14 @@
+{
+  "name": "lytric-studios",
+  "version": "1.0.0",
+  "description": "Game Studio",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Tom Kyburz",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.8.1"
+  }
+}
