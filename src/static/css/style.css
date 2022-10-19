@@ -1,9 +1,12 @@
 body {
-    margin: 0;
-    background-color: #171717;
+  margin: 0;
+  background-color: #171717;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .title {
+    position: absolute;
     text-align: center;
     width: 100vw;
     display: inline-block;
@@ -21,16 +24,31 @@ body {
     color: rgb(0, 119, 255);
 }
 
-.circle {
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 75vw;
-    width: 150px;
-    height: 150px;
-    background-color: white;
+.container {
+  position: relative;
+  top: 45vh;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  color: #444;
 }
 
-#1 {
-    
+.circ {
+  background-image: url('../img/ps.jpg');
+  color: #fff;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.circ.1 {
+    background-image: url('../img/ps.jpg');
+}
+
+#2 {
+    background-image: url('../img/beautiful\ purple\ sunset.jpg');
+}
+
+#3 {
+    background-image: url('../img/beautiful\ purple\ sunset.jpg');
 }
