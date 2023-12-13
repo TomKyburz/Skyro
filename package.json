@@ -1,0 +1,16 @@
+{
+  "name": "Skyro",
+  "version": "1.0.1",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "cross-env IS_OFFLINE=true node index.mjs"
+  },
+  "dependencies": {
+    "mime": "3.0.0",
+    "ws": "8.5.0"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3"
+  }
+}

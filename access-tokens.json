@@ -1,0 +1,42 @@
+{
+  "patryk": {
+    "code": "1234",
+    "roles": [ "default" ]
+  },
+  "avery": {
+    "code": "1475",
+    "roles": [ "default" ]
+  },
+  "ellie": {
+    "code": "1907",
+    "roles": [ "default" ]
+  },
+  "elizabeth": {
+    "code": "4637",
+    "roles": [ "default" ]
+  },
+  "megasaurus": {
+    "code": "5504",
+    "roles": [ "default" ]
+  },
+  "tom": {
+    "code": "6102",
+    "roles": [ "default" , "admin"]
+  },
+  "livia": {
+    "code": "6793",
+    "roles": [ "default" ]
+  },
+  "emma": {
+    "code": "7394",
+    "roles": [ "default" ]
+  },
+  "emily": {
+    "code": "9777",
+    "roles": [ "default" ]
+  },
+  "phoebe": {
+    "code": "6809",
+    "roles": [ "default" ]
+  }
+}
